@@ -125,16 +125,19 @@ footer {
     background-color: #253a4e;
     text-align: center;
 }
-/*
-footer a {
-    text-decoration: none;
-    font-size: 3em;
-    color: white;
-    margin: 1.5em 0;
-    padding: .5em;
+
+.main-footer {
+    background: black;
+    height: auto;
 }
 
-*/
+.main-footer a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    margin: 0 0;
+    padding: .5em;
+}
 
 
 .left {
@@ -143,7 +146,7 @@ footer a {
 }
 
 #contact {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 3% 1%;
     padding: 1%;
     background-color: #efefef;
