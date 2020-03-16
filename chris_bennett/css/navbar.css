@@ -1,0 +1,86 @@
+/*** For all pages (navbar) ***/
+
+/* (Already in layout.css) 
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+#center { /* div to hold the nav_menu and center it */
+    text-align: center;
+    background-color: #efefef; /*  #363131;  */
+    width: 100vw;
+}
+
+#nav_menu {
+   display: inline-block;   /* Center the navbar */
+}
+
+/************************************************************/
+/* CSS for operation of the menus */
+#nav_menu ul {
+    list-style: none;    /* Remove bullets from all ul elements */
+    position: relative;  /* So the submenus can be positioned */  
+}
+
+#nav_menu ul li { 
+    float: left;        /* display items horizontally */
+    font: 90% "Comic Sans MS", Impact, sans-serif;  
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 5em;
+    padding: 1em 0; /* padding above and below a elements */
+    text-decoration: none;
+    background-color: #efefef;   /*#363131;*/
+    color: black;
+    /*font-weight: bold; */
+}
+
+#nav_menu ul li:hover > ul { /* Select ul child of li element */
+    display: block;          /* Display submenu on hover of li element */
+}
+
+/*************************************************************/
+
+/******* Bill's additions  *******/
+
+#nav_menu ul li a:hover {
+    background-color: darkgray; 
+    /* Bill added to change color of li on hover */
+}
+
+/******************************/
+
+#nav_menu ul ul {
+    display: none;      /* Don't display submenus until hover of li */
+    position: absolute;
+    top: 100%;          /* Position submenu at bottom of main menu */
+    z-index: 5;
+}
+
+#nav_menu ul ul li {
+    float: none;       /* Display submenus vertically */ 
+    
+}
+
+#nav_menu > ul::after {
+    content: "";        /* Add empty content to the end of the first ul */
+    display: block;     /* Display that content as a block element */
+    clear: both;        /* Stop the floating of the li elements */
+}
+
+/* Other CSS */
+
+#nav_menu ul ul li a {
+    padding: 5px;
+    background-color: #456f93;
+    border-bottom: solid white .5px;
+}
+
+#nav_menu ul li a.current {
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+/* Social media icons */
+
+.social {
+    position: absolute;
+    z-index: 3;
+    top: 1em;
+    right: .5em;  
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: .4em;
+    font-size: .7em;
+    width: .8em;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.1em;
+    border-radius: 30%;
+}
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+@media (max-width: 667px) {
+.social {
+    margin-top: 4em;
+    }
+    
+.social a {
+    display: block;}
+
+.fa {
+    width: 1.1em; 
+    padding: .6em;
+    border-radius: 20%;}
+}
+
+@media (max-width: 415px) {
+#bio-pic { width: 100%;
+        max-width: 362px;}
+
+}

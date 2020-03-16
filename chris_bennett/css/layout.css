@@ -1,0 +1,155 @@
+/*** Layout (divs, etc)  CSS ********/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {  
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(10deg,#333333,#BF5521,black) ; 
+    background-position: center center; 
+    background-size: cover;
+    margin: 0 auto;
+    border-bottom: .5em solid #efefef;
+}
+
+.photo-centered { /* img class for main pic for index */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: auto;
+    /*z-index: 2; */
+}
+.titles {  /* div for index - h1, h2 in hero-image area */
+    position: absolute;
+    top: 3em;
+    left: 2em;
+    z-index: 3; 
+}
+
+.titles-left {  /* for non-index pages - push headings farther left */
+    position: absolute;
+    height: 3em;
+    width: 5em;
+    top: 30%;
+    left: 50%;
+    margin-left: -3.2em;
+    /*z-index: 3; */
+}
+/****** for non-index pages *******/
+.hero-image-short { /* to make the wide div at top not as tall */
+    position: relative;
+    width: 100vw;
+    height: 30vh;  /* = different from .hero-image */
+    /* background-color: #333333; */
+    background-image: url("../images/guitar-2.1.jpg");
+    background-position: center center; 
+    background-size: cover;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.photo-right {  /* position an img within the hero-image background */
+    display: block;
+    height: 30vh;
+    width: 60vw;
+    margin: 0 auto;;
+}
+
+/***********************/
+
+.container {
+    margin: .3em; auto; 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5em;
+    grid-row-gap: 1px;
+    grid-template-rows: auto;
+    line-height: 1.5em; 
+    background-color: white;  /* linear-gradient(30deg,black,#CDC1BC,#A4A3A4) */
+}
+
+.container-2-col {
+    margin: .5em auto; 
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    /* grid-template-rows: auto; */
+    line-height: 1.5em; 
+    background-color: #efefef;
+}
+
+.container-six-col {
+    margin: 0 auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: .2em;
+    background: linear-gradient(30deg,black,#CDC1BC,#A4A3A4); 
+}
+
+.one-column {  /* for about.html */
+    width: 50%;
+    height: auto;
+    margin: 0 auto; 
+    /*position: relative;*/
+}
+
+#bio-pic {
+    float: left;
+    max-width: 280px;
+    padding: 1em;
+}
+.left-col {
+    text-align: center;
+    padding: 1em;
+    border-right: .3em solid white;
+}
+.right-col {
+    text-align: center;
+    padding: 1em;
+}
+
+/*.a1,.a2,.a3 {
+    max-width: 100%;
+    margin: 0 auto;
+}
+*/
+
+.a2 {}
+
+.a3 {}
+
+.a1 img {
+    max-width: 280px;
+}
+
+.a1 iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.a2 iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.a3 iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+footer {
+    height: 4em;
+    background: #efefef;
+}

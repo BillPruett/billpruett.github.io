@@ -1,0 +1,254 @@
+/*****Media Queries for different screen sizes********/
+
+@media (max-width: 1367px) {  /* Tablet portrait layout */
+    * {
+        margin: 0;
+        padding: 0;
+    }  
+    
+    #center {
+        width: 100vw;
+    }
+    
+    .hero-image {
+        width: 100vw;
+        height: auto; 
+    }
+    
+    .hero-image-footer {
+        height: auto;
+    }
+    
+    .hero-image-footer h1 {
+        font-size: 1.5em;
+    }
+    
+    .photo-centered {
+        margin-right: 0px;
+        /*width: 50%;*/
+        height: auto;
+    }
+    
+    .photo-centered-portrait {
+        border-bottom: .5em solid palegray;
+    }
+    
+    .titles h1 {
+        font-size: 3em;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    .titles h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .one-column {
+        width: 100%;
+    } 
+    
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1px;
+    }
+    
+    video {
+        width: 100%;
+        height: auto; 
+    }
+    
+    .container-five-col {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    
+    .container-2-col {
+        width: 100%;
+        grid-template-columns: 1fr;
+        }
+    
+    .left-col {
+        border-bottom: .3em solid white;
+    }
+    
+    .spacer {
+        position: sticky;
+    }
+    
+    #hidden {
+    display: block;
+}
+    
+        .hide {
+    display: none;
+    position: sticky;
+    }
+
+}
+/****************************************/
+@media (max-width: 815px) {   /* Mobile Landscape and tablet portrait-was 770px */
+
+    body {
+        background: #efefef;
+    }
+    
+    .hero-image {
+        background-image: url(../images/guitar.jpg);
+        border-bottom: .5em solid #efefef;
+        /*height: 80vh; */
+    }
+    
+    .hero-image .photo-centered {
+        display: none;
+    }
+    
+    .photo-centered-portrait { /* img class for main pic for index */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5em;
+    height: auto; /* was auto */
+    width: 80vw;  /* was 100vw */
+}
+    
+    .titles {
+        position: static;
+        margin-top: -1em;
+    }
+
+    .titles h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    .titles h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .one-column p {
+        clear: left;
+    }
+    
+    #bio-pic { width: 100%;
+        display: block;
+        max-width: 362px;
+        margin: 0 auto;
+    }
+    .container-five-col {
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    
+    .container-2-col {
+            width: 100%;
+            grid-template-columns: 1fr;
+        }
+    
+    .hide {
+    display: none;
+    position: sticky;
+    }
+}
+
+/****************************************/
+@media (max-width: 479px) {   /* Mobile portrait */
+    .hero-image {
+        height: 30vh;
+        /* width: auto; */
+        background-image: url(../images/guitar.jpg);
+    }
+    .titles {  /* div for index - h1, h2 in hero-image area */
+        position: absolute;  /* was static */
+        vertical-align: top;
+        top: 1em;
+    }
+    
+        .hero-image-footer {
+        height: auto;
+    }
+    
+    .hero-image-footer h1 {
+        font-size: 1.5em;
+    }
+    
+    .photo-centered-portrait {
+        height: auto;
+        width: 100vw;
+    }
+    
+    .titles h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .titles h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .photo-centered { /* img class for main pic for index */
+        height: 100vh;
+        width: auto;
+    }   
+
+    .titles-left h1 {
+            font-size: 2em;
+            margin: 0 auto;
+        }
+    
+    .container {
+            grid-template-columns: 1fr;
+        }
+
+    a1,a2,a3 {
+       width: 100%;}
+
+    .container-five-col {
+        grid-template-columns: 1fr;
+        }
+    
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    nav a:link {
+            color: white;
+            text-decoration: none;
+            margin-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    .hero-image h1 {
+            font-size: 2em;
+        }
+
+    .hero-image h2 {
+            font-size: 1.5em;
+        }
+
+    .container-2-col {
+            width: 100%;
+            grid-template-columns: 1fr;
+        }
+
+    .left-col {
+        border-bottom: .5em solid white;
+        border-right: 0em solid white;
+        }
+
+    .one-column {
+        width: 100%;
+        }
+
+    #bio-pic { width: 100%;
+            max-width: 362px;}
+    }
+
+
+
+
+

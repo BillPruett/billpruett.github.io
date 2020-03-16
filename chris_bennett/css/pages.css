@@ -1,0 +1,49 @@
+/* CSS for other pages, not the home index */
+
+.hero-image h1 {
+    color: palegray;
+}
+    
+body {
+    background-color: #D5D5D5;  
+}
+
+.container {
+    grid-template-columns: 1fr 1fr;
+    background: #efefef;
+}
+    
+#contacts-list {
+    text-align: center;
+    border-right: 1px solid gray;
+    padding: 2em;
+}
+
+.locations {
+    padding: 1em;
+    text-align: left;
+}
+
+.a1 {
+    background: #efefef;  
+}
+
+.a1 iframe, .a2 iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.a2 {
+    background: #efefef;
+}
+    
+.a3 {
+    background: #efefef;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+h1 {
+    text-align: center;
+    margin: auto;
+}

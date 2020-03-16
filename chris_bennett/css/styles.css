@@ -1,0 +1,333 @@
+/*************************************************
+Main CSS style sheet
+*************************************************/
+
+/*******General Styles *******/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+body {
+	font-family: "Arial, Helvetica, sans-serif;
+	font-size: 100%; 
+	background-color: pale-gray;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+	margin: 10px 10px 10px 10px;
+    padding-right: 1em;
+    padding-left: 1em;
+	padding-bottom: .5em;
+    line-height: 25px;
+}
+
+main h1 {
+    text-align: left;
+    margin: 0 auto 0 1em;
+    font-size: 3em;
+}
+
+/***** Navigation Style *****/
+ul li {
+    list-style: none;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+    margin-top: 0px;
+    padding-left: 1em;
+    padding-right: 1.5em;
+    
+}
+nav a:visited {color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/***** Footer Style *****/
+footer {
+    height: 4em;
+    background: #efefef;
+}
+footer p {
+    font-size: .7em;
+    color: #363131;
+    text-align: center; 
+}
+
+/***** Hero-image sections *****/
+
+.hero-image {  
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(../images/guitar.jpg); */
+    background: linear-gradient(10deg, darkgray, black);
+    /* linear-gradient(10deg,#333333,#BF5521,black) */
+    background-position: center center; 
+    background-size: cover;
+    margin: 0 auto;
+    border-bottom: .5em solid #efefef;
+}
+
+.hero-image-footer {    /* for bottom of contact.html */
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background: #efefef;
+    /* background-image: url(../images/guitar.jpg); */
+    background: linear-gradient(10deg, #dbceb0, #7e4a35);  
+    /* linear-gradient(45deg,#333333,#BF5521,black) */
+    background-position: center center; 
+    background-size: cover;
+    margin: 0 auto;
+    border-bottom: .5em solid #efefef;
+}
+
+.hero-image-footer h1 {
+    text-align: center;
+    color: ghostwhite;
+    padding: 1.5em 0;
+    font-size: 2.8em;
+}
+
+.hero-image h1 {
+    font-size: 3.5em;
+    /*vertical-align: middle; */
+    position: relative;
+    text-align: left;
+    margin: 0 -1em;
+    padding: 2em;
+    z-index: 2;
+}
+.hero-image h2 {
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2em;
+    z-index: 2;  
+}
+.hero-image h3 {
+    font-size: 2em;
+    color: black;
+    text-align: left;
+    position: relative;
+}
+
+.photo-centered { /* img class for main pic for index */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: auto;
+}
+
+ .photo-centered-portrait { /* img class for main pic for index */
+    display: none;
+}
+
+.titles {  /* div for index - h1, h2 in hero-image area */
+    position: absolute;
+    top: 3em;
+    left: 2em;
+    z-index: 3; 
+}
+
+.titles h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+
+
+/***** Divs (Layout) *****/
+
+.container {
+    margin: 0 auto; 
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .2em;
+    grid-template-rows: auto;
+    line-height: 1.5em; 
+    /*background: linear-gradient(30deg,black,#CDC1BC,#A4A3A4);*/
+    background: #efefef;
+}
+
+.container-2-col {   /* used on contact.html */
+    margin: .5em auto; 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    /* grid-template-rows: auto; */
+    line-height: 1.5em; 
+    background-color: #efefef;
+}
+
+.container-five-col {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: #efefef;
+    
+}
+
+
+/****** for non-index pages *******/
+
+.hero-image-short { /* to make the wide div at top not as tall */
+    position: relative;
+    width: 100vw;
+    height: 40vh;  /* = different from .hero-image */
+    /* background-color: #333333; */
+    background-image: url("../images/guitar-2.1.jpg"); /*changed from guitar-2.1*/
+    background-position: center center; 
+    background-size: cover;
+    margin: 0 auto;
+    z-index: 1;
+    text-align: center;
+}
+
+.hero-image-short-contact { /* to make the wide div at top not as tall */
+    position: relative;
+    width: 100vw;
+    height: 40vh;  /* = different from .hero-image */
+    /* background-color: #333333; */
+    background-image: url("../images/guitar-2.1.jpg"); /*changed from guitar-2.1*/
+    background-position: center center; 
+    background-size: cover;
+    margin: 0 auto;
+    z-index: 1;
+    text-align: center;
+}
+.titles-left h1, h2 {
+    color: white;
+    text-align: left;
+}
+.titles-left h1 {
+    font-size: 3.5em;
+}
+
+
+.titles-left {  
+    position: static;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+
+.photo-right {  /* position an img within the hero-image background */
+    display: block;
+    height: 30vh;
+    width: 60vw;
+    margin: 0 auto;;
+}
+
+#hidden {
+    display: none;
+}
+
+.one-column {  /* for about.html */
+    width: 50%;
+    height: auto;
+    margin: 0 auto; 
+    /*position: relative;*/
+}
+
+.one-column p {
+    font-size: 1.1em;
+}
+
+.one-column ul {
+    margin-left: 1em;
+    padding: 1em;
+}
+
+.one-column ul li {
+    margin-left: 1em;
+}
+
+
+#bio-pic {
+    float: left;
+    max-width: 270px;
+    padding: 1em;
+    margin: .2em auto;
+}
+
+.clear-float {
+    float: clear;
+}
+
+.left-col {
+    text-align: center;
+    padding: 1em;
+    border-right: .3em solid white;
+    border-bottom: .3em solid white;  
+}
+
+#contact-info a {
+    font-size: 1.5em;
+}
+.right-col {
+    text-align: center;
+    padding: 1em;
+}
+
+.a1,.a2,.a3 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: .25em;
+}
+
+.a1 img {
+    max-width: 280px;
+}
+
+.a1 video {
+    width: 100%;
+    height: auto;
+}
+
+.a2 {}
+
+.a3 {}
+
+
+
+.one-column h2 {
+    color: black;
+}
+
+.titles h1 {
+    font-size: 2.8em;
+}
+
+
+
+
+
+
+
