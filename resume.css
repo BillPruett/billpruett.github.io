@@ -1,0 +1,204 @@
+/* resume.css  - special styles for the html resume */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+    line-height: 2em;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.hero-image {
+    width: 100vw;
+    height: 20vh;
+    /*background-image: url(../images/cyber.jpg); */
+    background: white;
+    background-position: center center; 
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 5em;
+    color: black;
+    padding: 0.5em;
+}
+
+
+header h2 {
+    color: black;
+    padding: .5em;
+    text-align: left;
+    margin-left: 3em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    border: 2px solid white;
+    /*padding: 1em; */
+    margin: 1em auto;
+    background-color: #efefef;
+    color: black;
+}
+
+.grid-item {
+    background-color: #efefef;
+    color: white;
+    border: 1px solid white;
+    padding: 1em; 
+}
+
+.grid-item h3 {
+    font-size: 2em;
+    padding: .2em;
+}
+
+#skills h3, #certifications h3 {
+    color: black;
+    font-size: 2.0em;
+}
+
+.skill {
+    color: whitesmoke;
+    font-size: 1.2em;
+   /* background-color: lightblue;  */
+    background: slategray;
+    display: inline-block;
+    margin: .2em;
+    padding: .3em;
+    border-radius: 5%;
+    font-weight: bold;
+
+}
+
+#experience, #education {
+    padding: 1em;
+    margin: 0 ;
+    border-top: .2em solid gray;
+   
+}
+
+#experience h3, #courses h3  {
+    color: black;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+
+#education h3  {
+    color: black;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+ul {
+    border: 0;
+    margin: 0;
+}
+
+.job {
+    
+}
+
+.job h2 {
+    text-align: left;
+    font-size: 1.5em;
+    background: white;
+    padding: .5em;
+}
+
+.job ul, #courses ul, #education ul {
+    list-style-type: square;
+    color: black;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-left: 2em;
+    padding: 1%;
+}
+
+#courses {
+    padding: 1em;
+    margin: 0 2em;
+    border: .5px solid black;
+   
+}
+
+#courses ul {
+    list-style-type: none;
+    background: white;
+    color: black;
+    font-weight: 600;
+    margin: 1%;
+    padding: 1%;
+}
+
+
+#education ul {
+    list-style-type: none;
+    background: white;
+    color: black;
+    font-weight: 600;
+    margin: 1%;
+    padding: 1%;
+}
+
+#resume-footer {
+    height: 20vh;
+    background-color: #333;
+    margin-top: 2em;
+    text-align: left;
+    padding: 2em;
+}
+
+#resume-footer h3 {
+    color: white;
+}
+
+#resume-footer a {
+    color: white;
+    padding: 1em;
+    
+}
+
+#resume-footer p {
+    color: white;
+    font-size: 1.5em;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .grid-item {
+        padding: 0;
+    }
+    
+    .hero-image {
+        height: 30vh;
+    }
+    
+    #resume-footer p {
+    font-size: 1em;
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero-image {
+        height: auto;
+    }
+    }
