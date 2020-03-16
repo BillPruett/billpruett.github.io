@@ -7,9 +7,15 @@
     <!-- Bootstrap 4: 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+    
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/resume.css">
+    <link rel="stylesheet" href="./css/print.css" media="print">
+    
     <link rel="stylesheet" href="normalize.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     
@@ -21,9 +27,9 @@
 <body>
 
     <div class="topnav" id="myTopnav">
-       <a href="index.html">Home</a>
-        <!-- <a href="#projects">Projects</a> | -->
-        <a href="resume.html" class="active">Resume</a> | 
+       
+        <a href="index.html">Home</a>
+        <a href="resume.html" class="active">Resume</a> 
         <a href="contact.html">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -31,15 +37,125 @@
     </div>
     
     <main>
-      <!--<embed src="resume.pdf" type="application/pdf" width="100%" height="2160px" />
-      -->
-      
-    <iframe src="resume.pdf" height="1080px" width="900px"></iframe>
-   </main>
-   
-   <!--<footer id="resume-footer">
-       <a href="resume.pdf">Download</a>
+        <header class="hero-image">
+            <h1>Bill Pruett</h1>
+            <h2>Web Developer</h2>
+        </header>
+    
+    
+    <div class="container">
+       <div id="skills" class="grid-item">
+            <h3>SKILLS</h3>
+            <p class="skill">HTML</p>  
+            <p class="skill">CSS</p> 
+            <p class="skill">Javascript</p> 
+            <p class="skill">Python</p> 
+            <p class="skill">Git/GitHub </p> 
+            <p class="skill">Jira </p> 
+            <p class="skill">BitBucket</p> 
+            <p class="skill">AWS, G Suite </p> 
+            <p class="skill">Office 365</p> 
+            <p class="skill">Adobe CC</p> 
+            <p class="skill">MS Office</p> 
+            <p class="skill">Linux</p>
+                
+        </div>
+        
+        <div id="certifications" class="grid-item">
+                <h3>CERTIFICATIONS</h3>
+                <p class="skill">FreeCodeCamp: Responsive Web Design</p>
+                <p class="skill">CompTIA Security+</p>
+                <p class="skill">Cisco CCNA</p>     
+            </div>
+    </div>
+    
+    
+    <div id="experience">
+        <h3>EXPERIENCE</h3>
+        
+        <div class="job">
+         <h2>Web Developer / 2019 to present / freelance
+         </h2>
+            <ul>
+                <li>Using HTML/CSS since 2014, Python since 2018, Javascript since 2019</li>
+            </ul>
+        </div>
+        
+        <div class="job">    
+        
+           <h2>IT Support Engineer/Network Administrator / 
+        2016 to present / Zift Solutions, Inc. 
+            </h2>   
+            
+        
+        
+         <ul>
+            <li>Administer AWS, G Suite, Office 365 Business, Atlassian (Confluence, Jira, Bitbucket) WebEx, Bitdefender, Salesforce</li>
+            <li>Windows, Mac, Linux administration and troubleshooting</li>
+            <li >Python - wrote scripts to streamline processes</li>
+            <li>Created a new IT Support wiki presence for the company, with knowledge base, administrative section, and ticketing system; </li>
+            <li>Developed support articles for internal customers</li>
+        </ul>
+        
+        </div>
+
+ 
+        <div class="job">
+            <h2>            Technical Support Advisor, Senior Technical Support Advisor / 
+        2014 to 2016 / Apple, Inc.
+            </h2>
+            
+             <ul>
+                <li>Provide technical support for Macintosh desktops and notebooks, and all iOS devices (iPhone, iPad, iPod Touch), Beats devices, Apple Watch</li>
+                <li>Advise Tier 1 advisors regarding technical and service issues; take ownership of cases, working with customers until resolution</li>
+                <li>Support OS X system and troubleshoot applications</li>
+                <li>Troubleshoot issues on Windows 7, 8, 10 related to Apple software</li>
+                <li>Troubleshoot networking access, email, messaging, system performance, and startup.</li>
+                <li>Extensive training in customer management</li>
+                <li>Create technical documentation of best practices and troubleshooting procedures, using word processing programs, content management systems, HTML5/CSS, and flowchart creation applications </li>
+           </ul>
+        </div>
+        
+    </div>
+    
+    <!--
+    <div id="courses">
+        <h3>TECHNICAL COURSES</h3>
+        <ul>
+        <li>Udacity: How to Use Git and GitHub - 2019
+        <li>System Administration and IT Infrastructure Services, by Google on Coursera. - August 2018 
+        </ul>
+     </div>
+     -->
+     
+      <div id="education">
+          <h3>EDUCATION</h3>
+           <ul>
+            <li>Indiana University, Bloomington:  DM, Music Composition and Electronic Music
+            <li>University of North Carolina at Chapel Hill: Masters degree, Music
+            <li>Campbell University:  Bachelor of Arts, Music
+            </ul>
+      </div>
+
+    </main>
+    
+   <footer id="resume-footer">
+    
+       
+           <h3>Contact:</h3>
+                <p>Email:    
+                    <a href="mailto:wm.pruett@gmail.com" target="_top">wm.pruett@gmail.com</a>
+                    <br>   	
+                    
+                    LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/billpruett/">www.linkedin.com/in/billpruett/</a>
+                    <br>
+                    
+                    Portfolio:
+                    <a target="_blank" href="https://billpruett.github.io/">billpruett.github.io</a>
+                </p>
+       
+     
    </footer>
-   -->
+   
     </body>
     </html>
