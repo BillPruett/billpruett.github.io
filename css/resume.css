@@ -45,7 +45,6 @@ header h2 {
     display: grid;
     grid-template-columns: 1.3fr 1fr;
     border: 2px solid white;
-    /*padding: 1em; */
     margin: 1em auto;
     background-color: #efefef;
     color: black;
@@ -99,6 +98,11 @@ header h2 {
     color: black;
     font-size: 1.5em;
     line-height: 1em;
+}
+
+ul li p {
+    font-size: .8em;
+    margin: 0 2em;
 }
 
 ul {
@@ -182,11 +186,17 @@ ul {
     }
     
     .grid-item {
-        padding: 0;
+        padding: .8em;
+        width: 100%;
     }
     
+    #skills h3, #certifications h3 {
+    color: black;
+    font-size: 1.3em;
+}
+    
     .hero-image {
-        height: 30vh;
+        height: auto;
     }
     
     #resume-footer p {
