@@ -86,6 +86,8 @@
     }
 
 }
+
+
 /****************************************/
 @media (max-width: 815px) {   /* Mobile Landscape and tablet portrait-was 770px */
 
@@ -96,7 +98,7 @@
     .hero-image {
         background-image: url(../images/guitar.jpg);
         border-bottom: .5em solid #efefef;
-        /*height: 80vh; */
+        top: 1.5em;
     }
     
     .hero-image .photo-centered {
@@ -181,7 +183,7 @@
     
     .titles h1 {
         font-size: 2em;
-        text-align: center;
+        text-align: left;
     }
     
     .titles h2 {

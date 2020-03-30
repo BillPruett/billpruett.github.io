@@ -5,9 +5,15 @@
     <title>Chris Bennett Guitar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!------------------>
+    
+     <!-- Font Awesome -your kit's code here -->
+    <script src="https://kit.fontawesome.com/9a3a701b71.js" crossorigin="anonymous"></script>
+    
     <link href="./css/normalize.css" rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet">
-    <!-- <link href="./css/layout.css" rel="stylesheet"> -->
     <link href="./css/navbar.css" rel="stylesheet">
     <link href="./css/media_queries.css" rel="stylesheet">
     <link href="css/social.css" rel="stylesheet">
@@ -20,28 +26,39 @@
     <meta name="keywords" content="guitar, performance">
     <!-- Note: Google and Bing search don't use keywords, but Yahoo might. Use no more than 10 keywords. -->
     
-    <!-- JavaScript shiv for IE7 and 8 -->
+    <!-- JavaScript shiv for IE7 and 8 
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
     </script>
-    
+    -->
 </head>
-    
-<div id="center">
+  
+<body>
    
-    <nav id="nav_menu">
-       
-       
-        <ul>
-            <li><a href="#">Home</a>
-                <ul>  
-                </ul>
-            </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="video.html">Videos</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-        <!-- font awesome icons -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+         
+          <a class="navbar-brand fas fa-guitar" href="./index.html">Chris  Bennett</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          
+           <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>  
+          -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./video.html">Videos</a>
+          </li>
+              <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          
         <div class="social">
             <a href="https://www.facebook.com/Chris-Bennett-1903540909873660/" class="fa fa-facebook"></a>
             
@@ -51,38 +68,40 @@
         
         <!-- <a href="#" class="fa fa-twitter"></a> -->
         </div>
-</div>
-   
-<body>
+        
 
+        </ul>
+        <!--
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        -->
+      </div>
+    </nav>
+   
+   
+
+<!-- Below is original stuff -->
 <div class="hero-image">  
    <div class="titles">
       <h1>Chris Bennett</h1>
       <h2>Guitarist</h2>
   </div>  
       
-<img class="photo-centered" src="./images/chris-image-01.jpg" alt="Chris-picture">
-     
-    
+    <img class="photo-centered" src="./images/chris-image-01.jpg" alt="Chris-picture">
 </div>  
-    
-
 <img class="photo-centered-portrait" src="./images/chris-image-01.jpg" alt="Chris-picture">
     
-<main> 
-  
-   <div class="container-five-col">
-       
-           <div class="hide"></div>
-             
-        
+    <main> 
+       <div class="container-five-col">
             <div class="a1">
                <img src="./images/chris-03-300px.jpg" alt="Chris 3">
            </div>
        
-         <div class="a1">
+             <div class="a1">
               <img src="./images/ig-2.jpg" alt="Chris picture">
-            </div>
+             </div>
     
            <div class="a1">
               <img src="./images/cb-guitar-01.jpg" alt="Guitar 1">
@@ -99,14 +118,15 @@
            <div id="hidden" class="a1">
                <img src="./images/cb-guitar-06.jpg" alt="Stage">
           </div>
-       
-          
-       
     </div>
    
-   
-</main>	 
-	
-
+    </main>	 
+    
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

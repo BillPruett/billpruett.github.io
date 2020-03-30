@@ -1,5 +1,6 @@
 /* Social media icons */
 
+
 .social {
     position: absolute;
     z-index: 3;
@@ -9,12 +10,12 @@
 
 /* Style all font awesome icons */
 .fa {
-    padding: .4em;
-    font-size: .7em;
-    width: .8em;
+    padding: 0.4em;
+    font-size: .5em;
+    width: .7em;
     text-align: center;
     text-decoration: none;
-    margin: 0.1em;
+    margin: 0.15em;
     border-radius: 30%;
 }
 
@@ -45,23 +46,34 @@
     background: #bb0000;
     color: white;
 }
+/********************************/
+@media (max-width: 992px) {
+    .social {
+        top: 1em;
+    }
+}
+/********************************/
 
-@media (max-width: 667px) {
+@media (max-width: 768px) {
 .social {
-    margin-top: 4em;
+    margin-top: 3em;
     }
     
 .social a {
-    display: block;}
+    display: block;
+    }
 
 .fa {
-    width: 1.1em; 
+    width: 1.5em; 
     padding: .6em;
     border-radius: 20%;}
 }
 
 @media (max-width: 415px) {
-#bio-pic { width: 100%;
-        max-width: 362px;}
+#bio-pic { 
+    width: 100%;
+    max-width: 362px;
+    }
 
 }
+
