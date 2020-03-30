@@ -83,7 +83,7 @@ footer p {
     background-position: center center; 
     background-size: cover;
     margin: 0 auto;
-    border-bottom: .5em solid #efefef;
+    border-bottom: 0em solid #efefef;
 }
 
 .hero-image-footer {    /* for bottom of contact.html */
@@ -186,7 +186,7 @@ footer p {
 .container-five-col {
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     background: #efefef;
     
 }
