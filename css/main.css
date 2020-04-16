@@ -106,7 +106,7 @@ h2 {
 .container-3-col {
     display: grid;
     height: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
 
