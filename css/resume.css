@@ -46,7 +46,7 @@ header h2 {
 
 .container {
     display: grid;
-    grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1fr;
     border: 2px solid white;
     margin: 1em auto;
     background-color: #efefef;
@@ -74,12 +74,12 @@ header h2 {
     color: whitesmoke;
     font-size: 1.2em;
    /* background-color: lightblue;  */
-    background: slategray;
+    background: #333;
     display: inline-block;
     margin: .2em;
     padding: .3em;
     border-radius: 5%;
-    font-weight: bold;
+/*    font-weight: bold;*/
 
 }
 
