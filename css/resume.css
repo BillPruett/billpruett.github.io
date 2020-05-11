@@ -122,6 +122,7 @@ ul {
     font-size: 1.5em;
     background: white;
     padding: .5em;
+    color: black;
 }
 
 .job ul, #courses ul, #education ul {
