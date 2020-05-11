@@ -65,7 +65,7 @@ main {
 #welcome-section {
     /*position: relative; */
     width: 100vw;
-    height: 40vh;
+    height: 60vh;
     background: #2C3E50;  /* fallback for old browsers */
     background: -webkit-linear-gradient(left, #4CA1AF, #2C3E50);
     background: -o-linear-gradient(left, #4CA1AF, #2C3E50);
@@ -95,13 +95,15 @@ h2 {
 
 #projects {
     width: 100vw;
+    
 }
 
 #projects h2 {
-        font-size: 1.8em;
+        font-size: 2.2em;
         background-color: #f7f7f7;
         color: #2C3E50;
         padding: .5em;
+        margin: .1em 0;
     }
     
 
@@ -160,7 +162,7 @@ footer {
 @media (max-width: 1025px) {
 
     #welcome-section {
-       height: 40vh; 
+       height: 60vh; 
     }
     
     #welcome-section h1{
