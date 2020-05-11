@@ -160,7 +160,7 @@ footer {
 @media (max-width: 1025px) {
 
     #welcome-section {
-       height: 30vh; 
+       height: 40vh; 
     }
     
     #welcome-section h1{
@@ -211,6 +211,6 @@ footer {
 /**************************************************************/
 @media (max-width: 479px) {
     #welcome-section {
-        height: 30vh;
+        height: 40vh;
     }
 }
