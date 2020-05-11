@@ -164,7 +164,7 @@ footer {
     }
     
     #welcome-section h1{
-        font-size: 2em;
+        font-size: 3em;
     }
     
     h2 {
@@ -211,6 +211,6 @@ footer {
 /**************************************************************/
 @media (max-width: 479px) {
     #welcome-section {
-        height: 20vh;
+        height: 30vh;
     }
 }
