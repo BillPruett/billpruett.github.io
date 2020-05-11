@@ -142,7 +142,7 @@ ul {
 }
 
 #courses ul {
-    list-style-type: none;
+    list-style-type: square;
     background: white;
     color: black;
     font-weight: 600;
@@ -152,7 +152,7 @@ ul {
 
 
 #education ul {
-    list-style-type: none;
+    list-style-type: square;
     background: white;
     color: black;
     font-weight: 600;
