@@ -64,15 +64,16 @@ main {
 
 #welcome-section {
     /*position: relative; */
-    width: 100vw;
-    height: 60vh;
+    /*    width: 100vw;*/
+    /*    height: 60vh;*/
     background: #2C3E50;  /* fallback for old browsers */
     background: -webkit-linear-gradient(left, #4CA1AF, #2C3E50);
     background: -o-linear-gradient(left, #4CA1AF, #2C3E50);
     background: linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/*    background: #efefef;*/
+    /*    background: #efefef;*/
     display: flex;
     justify-content: center;
+    padding: 40px 0;
     
 }
 
@@ -84,7 +85,7 @@ main {
     color: white;
     font-size: 4em;
     text-align: center;
-     padding: .5em 0 0 0; 
+
 }
 
 h2 {
