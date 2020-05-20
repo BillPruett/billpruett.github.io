@@ -158,6 +158,11 @@ footer {
     color: white;
     padding: 1em;
     text-decoration: none;
+}
+
+#resume-footer a:hover {
+    opacity: .5;
+    color: blue;
     
 }
 
