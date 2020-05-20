@@ -17,6 +17,10 @@ main {
     overflow: hidden;
 }
 
+#icons {
+    float: right;
+}
+
 /* Style the links in the nav bar */
 .topnav a {
     float: left;
