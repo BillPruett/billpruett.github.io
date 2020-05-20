@@ -258,9 +258,11 @@ ul {
         main {
             width: 90%;
             margin: 1rem auto;
-            padding: 1rem;
+            padding: .5rem;
+            border: 0px solid white;
         }
         #myTopnav {
             display: none;
         }
+        
     }
