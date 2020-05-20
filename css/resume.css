@@ -20,7 +20,8 @@ header {
 
 main {
     width: 67%;
-    margin: 0 auto;
+    margin: 1rem auto;
+    padding: 1rem;
     border: 1px solid gray;
 }
 .hero-image {
