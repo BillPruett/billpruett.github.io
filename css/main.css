@@ -141,6 +141,30 @@ footer {
     padding: .5em;
 }
 
+#resume-footer {
+    height: 15vh;
+    background-color: #333;
+    margin-top: 2em;
+    text-align: left;
+    padding: 2em;
+}
+
+#resume-footer h3 {
+    color: white;
+}
+
+#resume-footer a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    
+}
+
+#resume-footer p {
+    color: white;
+    font-size: 1.2em;
+}
+
 
 .left {
     font-size: 2.5em;
@@ -160,7 +184,7 @@ footer {
 @media (max-width: 1025px) {
 
     #welcome-section {
-       height: 60vh; 
+       height: 40vh; 
     }
     
     #welcome-section h1{
