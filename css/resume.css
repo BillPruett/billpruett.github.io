@@ -255,7 +255,7 @@ ul {
         body {
             background-color: white;
             color: black;
-            line-height: 1.5;
+            line-height: 1.3;
         }
         
         main {
@@ -268,12 +268,19 @@ ul {
             display: none;
         }
         .job ul, #courses ul, #education ul {
-            font-size: 11px;
+            font-size: 14px;
         }
         
         #skills h3, #certifications h3, #experience h3, #experience h2, #education h3  {
             color: gray;
             font-size: 1em;
 }
+        header h1 {
+            font-family: 'Raleway', sans-serif;
+            text-transform: uppercase;
+            font-size: 1.5em;
+            color: black;
+            padding: 0.5em;
+        }
         
     }
