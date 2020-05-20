@@ -9,7 +9,7 @@
 body {
     background-color: #fff;
     color: black;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 header {
@@ -18,9 +18,16 @@ header {
     text-align: left;
 }
 
+main {
+    width: 67%;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
 .hero-image {
+/*
     width: 100vw;
     height: 20vh;
+*/
     /*background-image: url(../images/cyber.jpg); */
     background: white;
     background-position: center center; 
@@ -161,11 +168,12 @@ ul {
 }
 
 #resume-footer {
-    height: 20vh;
+    height: 15vh;
     background-color: #333;
     margin-top: 2em;
     text-align: left;
     padding: 2em;
+    line-height: 2rem;
 }
 
 #resume-footer h3 {
@@ -175,12 +183,17 @@ ul {
 #resume-footer a {
     color: white;
     padding: 1em;
+    text-decoration: none;
+}
+
+#resume-footer a:hover {
+    opacity: .5;
     
 }
 
 #resume-footer p {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
