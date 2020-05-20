@@ -12,10 +12,18 @@ body {
     line-height: 1.7em;
 }
 
+main {
+    width: 67%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
 header {
     padding: 0;
     margin: 0;
     text-align: center;
+    line-height: 1.3rem;
 }
 
 header a {
@@ -26,27 +34,12 @@ header a {
 header a:hover {
     font-size: 1.2em;
 }
-main {
-    width: 67%;
-    margin: 1rem auto;
-    padding: 1rem;
-    border: 1px solid gray;
-}
-.hero-image {
-/*
-    width: 100vw;
-    height: 20vh;
-*/
-    /*background-image: url(../images/cyber.jpg); */
-    background: white;
-    background-position: center center; 
-    background-size: cover;
-}
+
 
 header h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.5em;
     color: black;
     padding: 0.5em;
 }
@@ -60,64 +53,6 @@ header h2 {
     margin-left: 3em;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 2px solid white;
-    margin: 1em auto;
-    background-color: #efefef;
-    color: black;
-}
-
-.grid-item {
-    background-color: #efefef;
-    color: white;
-    border: 1px solid white;
-    padding: 1em; 
-}
-
-.grid-item h3 {
-    font-size: 2em;
-    padding: .2em;
-}
-
-#skills h3, #certifications h3 {
-    color: black;
-    font-size: 1.5em;
-}
-
-.skill {
-    color: black;
-    font-size: 1rem;
-    display: inline-block;
-    margin: .2em;
-    padding: .3em;
-    border-radius: 5%;
-    border: .5px solid gray
-
-
-}
-
-#experience, #education {
-    padding: 1em;
-    margin: 0 ;
-    border-top: .2em solid gray;
-   
-}
-
-#experience h3, #courses h3  {
-    color: black;
-    font-size: 1.5em;
-    padding: 0;
-}
-
-
-#education h3  {
-    color: black;
-    font-size: 1.5em;
-    line-height: 1em;
-}
-
 ul li p {
     font-size: .8em;
     margin: 0 2em;
@@ -128,13 +63,58 @@ ul {
     margin: 0;
 }
 
+
+/****** Classes *****/
+
+.hero-image {
+/*
+    width: 100vw;
+    height: 20vh;
+*/
+    /*background-image: url(../images/cyber.jpg); */
+    background: white;
+    background-position: center center; 
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid white;
+    margin: 1em auto;
+/*    background-color: #efefef;*/
+    color: black;
+}
+
+.grid-item {
+/*    background-color: #efefef;*/
+    color: white;
+    border: 1px solid white;
+    padding: 1em; 
+}
+
+.grid-item h3 {
+    font-size: 2em;
+    padding: .2em;
+}
+
+.skill {
+    color: black;
+    font-size: 1rem;
+    display: inline-block;
+    margin: .2em;
+    padding: .3em;
+    border-radius: 5%;
+    border: .5px solid gray
+}
+
 .job {
     
 }
 
 .job h2 {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1em;
     background: white;
     padding: .5em;
     color: black;
@@ -143,11 +123,47 @@ ul {
 .job ul, #courses ul, #education ul {
     list-style-type: square;
     color: black;
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 400;
     margin-left: 2em;
     padding: 1%;
 }
+
+/*** IDs ***/
+
+#skills h3, #certifications h3 {
+    color: black;
+    font-size: 1.5em;
+}
+
+#experience, #education {
+    padding: 1em;
+    margin: 0 ;
+    border-top: .2em solid gray;
+}
+
+#experience h3, #courses h3  {
+    color: black;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+
+#education h3  {
+    color: black;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+#education ul {
+    list-style-type: square;
+    background: white;
+    color: black;
+/*    font-weight: 600;*/
+    margin: 1%;
+    padding: 1%;
+}
+
 
 #courses {
     padding: 1em;
@@ -166,14 +182,7 @@ ul {
 }
 
 
-#education ul {
-    list-style-type: square;
-    background: white;
-    color: black;
-    font-weight: 600;
-    margin: 1%;
-    padding: 1%;
-}
+/** Footer **/
 
 #resume-footer {
     height: 15vh;
@@ -205,6 +214,9 @@ ul {
 }
 
 
+
+/*** Media queries ***/
+
 @media (max-width: 900px) {
     .container {
         grid-template-columns: 1fr;
@@ -229,9 +241,11 @@ ul {
     font-size: 1em;
 }
 
+/*** Small ***/
+    
 @media (max-width: 500px) {
     header h1 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     
     .hero-image {
