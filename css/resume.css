@@ -131,23 +131,20 @@ ul {
 
 /*** IDs ***/
 
-#skills h3, #certifications h3 {
-    color: black;
-    font-size: 1.5em;
-}
-
-#experience, #education {
+#courses {
     padding: 1em;
-    margin: 0 ;
-    border-top: .2em solid gray;
+    margin: 0 2em;
+    border: .5px solid black;
 }
 
-#experience h3, #courses h3  {
+#courses ul {
+    list-style-type: square;
+    background: white;
     color: black;
-    font-size: 1.2em;
-    padding: 0;
+    font-weight: 600;
+    margin: 1%;
+    padding: 1%;
 }
-
 
 #education h3  {
     color: black;
@@ -164,23 +161,22 @@ ul {
     padding: 1%;
 }
 
-
-#courses {
+#experience, #education {
     padding: 1em;
-    margin: 0 2em;
-    border: .5px solid black;
-   
+    margin: 0 ;
+    border-top: .2em solid gray;
 }
 
-#courses ul {
-    list-style-type: square;
-    background: white;
+#experience h3, #courses h3  {
     color: black;
-    font-weight: 600;
-    margin: 1%;
-    padding: 1%;
+    font-size: 1.2em;
+    padding: 0;
 }
 
+#skills h3, #certifications h3 {
+    color: black;
+    font-size: 1.5em;
+}
 
 /** Footer **/
 
@@ -254,7 +250,13 @@ ul {
     }
     
 /*** Print ***/
-    @media print {
+@media print {
+        body {
+            background-color: white;
+            color: black;
+            line-height: 1.3;
+        }
+        
         main {
             width: 90%;
             margin: 1rem auto;
@@ -264,5 +266,13 @@ ul {
         #myTopnav {
             display: none;
         }
+        .job ul, #courses ul, #education ul {
+            font-size: 11px;
+        }
+        
+        #skills h3, #certifications h3, #experience h3, #experience h2, #education h3  {
+            color: gray;
+            font-size: 14px;
+}
         
     }
