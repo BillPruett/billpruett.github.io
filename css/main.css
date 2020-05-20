@@ -147,7 +147,7 @@ footer {
     margin-top: 2em;
     text-align: left;
     padding: 2em;
-    line-height: 1.5em;
+    line-height: 2rem;
 }
 
 #resume-footer h3 {
@@ -162,7 +162,6 @@ footer {
 
 #resume-footer a:hover {
     opacity: .5;
-    color: blue;
     
 }
 
