@@ -6,9 +6,6 @@
     padding: 0;
 }
 
-main {
-   
-}
 /************ Responsive mobile navigation from w3schools.com *****************/
 
 /* Add a black background color to the nav bar */
@@ -98,10 +95,6 @@ h2 {
     text-align: center;
 }
 
-#projects {
-    width: 100vw;
-    
-}
 
 #projects h2 {
         font-size: 2.2em;
@@ -115,7 +108,7 @@ h2 {
 .container-3-col {
     display: grid;
     height: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .5fr 1fr 1fr .5fr;
     grid-template-rows: auto;
 }
 
