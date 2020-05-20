@@ -252,3 +252,15 @@ ul {
         height: auto;
     }
     }
+    
+/*** Print ***/
+    @media print {
+        main {
+            width: 90%;
+            margin: 1rem auto;
+            padding: 1rem;
+        }
+        #myTopnav {
+            display: none;
+        }
+    }
