@@ -10,7 +10,7 @@
 
 /* Add a black background color to the nav bar */
 .topnav {
-    background-color: #333;
+    background-color: #253a4e; /* was #333 */
     overflow: hidden;
 }
 
