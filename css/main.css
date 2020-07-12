@@ -167,12 +167,13 @@ footer {
 }
 
 #resume-footer a:hover {
-    opacity: .5;
+    opacity: .7;
+    
     
 }
 
 #resume-footer p {
-    color: darkcyan;
+    color: black;
     font-size: 1em;
 }
 
