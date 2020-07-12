@@ -128,7 +128,6 @@ h2 {
 
 footer {
     width: 100vw;
-    height: 8vh;
    /* background: linear-gradient(10deg, darkgray, #253a4e); */
     background-color: #253a4e;
     text-align: center;
@@ -148,7 +147,7 @@ footer {
 }
 
 #resume-footer {
-    height: 15vh;
+/*    height: 15vh;*/
     background-color: #efefef;
     margin-top: 2em;
     text-align: left;
