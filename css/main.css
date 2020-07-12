@@ -78,6 +78,8 @@
     color: #253a4e;
     font-size: 4em;
     text-align: center;
+    letter-spacing: .6rem;
+    
 
 }
 
@@ -87,6 +89,7 @@ h2 {
     color: white;
     font-size: 2em;
     text-align: center;
+    letter-spacing: .3rem;
 }
 
 
