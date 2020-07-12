@@ -80,8 +80,6 @@
     background-image: url("/images/mountain.jpg");
     display: flex;
     justify-content: center;
-    padding: 40px 0;
-    
 }
 
 .center {
