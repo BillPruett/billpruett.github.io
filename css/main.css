@@ -62,7 +62,7 @@
 }
 
 #welcome-section {
-    background-image: url("./images/mountain.jpg");
+    background-image: url("../images/mountain.jpg");
     display: flex;
     justify-content: center;
     padding: 12%;
