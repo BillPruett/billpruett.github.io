@@ -69,7 +69,7 @@
     background-repeat: no-repeat; 
     justify-content: center;
     border-radius: 0px;
-    padding: 13%;
+    padding: 20%;
     display: flex;
 }
 
@@ -197,10 +197,11 @@ footer {
 
 /*******************************************/
 
-@media (max-width: 1025px) {
-
+@media (max-width: 1023px) {
     #welcome-section h1{
-        font-size: 3em;
+        font-size: 5em;
+        margin-top: -1em;
+        margin-left: -1.5em;
     }
     
     h2 {
@@ -220,3 +221,14 @@ footer {
 }
 }
 
+@media (max-width: 414px) {
+    #welcome-section {
+        padding: 15%;
+    }
+    
+    #welcome-section h1 {
+        font-size: 2em;
+        margin-top: -.7em;
+        margin-left: -1.5em;
+    }
+}
