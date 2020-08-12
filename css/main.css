@@ -100,11 +100,9 @@ h2 {
 }
 
 #welcome-section h2 {
-/*    margin-left: 5%;*/
     color: whitesmoke;
     text-align: left;
 }
-
 
 #projects h2 {
     font-size: 1.5em;
@@ -211,6 +209,11 @@ footer {
     #welcome-section h2 {
         font-size: 4em;
         margin: 5% 10% 0 -20%;
+    }
+    
+    #welcome-section h3 {
+        font-size: 2em;
+        margin: 5% 30% 0 -20%;
     }
 }
 @media (max-width: 1023px) {
