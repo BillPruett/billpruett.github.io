@@ -62,9 +62,13 @@
 }
 
 #welcome-section {
-    background-image: url("../images/mountain.jpg");
-    display: flex;
+    background-image: url("../images/laptop.2.png");
+    /* ../images/mountain.jpg */
+    background-position:  center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
     justify-content: center;
+    border-radius: 0px;
     padding: 12%;
 }
 
@@ -79,6 +83,7 @@
     font-size: 4.8em;
     text-align: center;
     letter-spacing: .3rem;
+    
 }
 
 h2 {
