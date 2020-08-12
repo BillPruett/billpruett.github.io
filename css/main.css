@@ -227,6 +227,10 @@ footer {
         font-size: 1.5em;
     }
     
+    #welcome-section h3 {
+        display: none;
+    }
+    
     .container-3-col {
         width: 100vw;
         height: auto;
@@ -254,5 +258,8 @@ footer {
     #welcome-section h2 {
         font-size: 1em;
     }
-    ]
+    
+    #welcome-section h3 {
+        display: none;
+    }
 }
