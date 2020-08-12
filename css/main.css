@@ -35,7 +35,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: darkcyan;
+    background-color: black;
     color: white;
 }
 
@@ -132,54 +132,28 @@ h2 {
 
 footer {
     width: 100vw;
-   /* background: linear-gradient(10deg, darkgray, #253a4e); */
-    background-color: #253a4e;
     text-align: center;
 }
 
 .main-footer {
-    background: black;
     height: auto;
+    margin-top: 2em;
+/*    text-align: left;*/
+    padding: 2em;
+    line-height: 2rem;
 }
 
 .main-footer a {
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
     margin: 0 0;
     padding: .5em;
 }
 
-#resume-footer {
-/*    height: 15vh;*/
-    background-color: #efefef;
-    margin-top: 2em;
-    text-align: left;
-    padding: 2em;
-    line-height: 2rem;
-}
-
-#resume-footer h3 {
+.main-footer p {
     color: white;
 }
-
-#resume-footer a {
-    color: black;
-    padding: 1em;
-    text-decoration: none;
-}
-
-#resume-footer a:hover {
-    opacity: .7;
-    
-    
-}
-
-#resume-footer p {
-    color: black;
-    font-size: 1em;
-}
-
 
 .left {
     font-size: 2.5em;
