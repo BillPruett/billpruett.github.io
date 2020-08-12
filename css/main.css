@@ -62,7 +62,7 @@
 }
 
 #welcome-section {
-    background-image: url("../images/laptop.2.png");
+    background-image: url("../images/laptop.3.png");
     /* ../images/mountain.jpg */
     background-position:  center center;
     background-size: cover;
@@ -70,6 +70,7 @@
     justify-content: center;
     border-radius: 0px;
     padding: 12%;
+    display: flex;
 }
 
 .center {
@@ -81,8 +82,9 @@
     font-weight: 900;
     color: #253a4e;
     font-size: 4.8em;
-    text-align: center;
+/*    text-align: center;*/
     letter-spacing: .3rem;
+    margin-top: 0;
     
 }
 
@@ -91,7 +93,7 @@ h2 {
     font-weight: 900;
     color: white;
     font-size: 2em;
-    text-align: center;
+/*    text-align: center;*/
     letter-spacing: .1rem;
 }
 
