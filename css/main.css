@@ -69,7 +69,7 @@
     background-repeat: no-repeat; 
     justify-content: center;
     border-radius: 0px;
-    padding: 15%;
+    padding: 13%;
     display: flex;
 }
 
@@ -81,10 +81,11 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #253a4e;
-    font-size: 4.8em;
+    font-size: 6em;
 /*    text-align: center;*/
     letter-spacing: .3rem;
-    margin-top: 0;
+    margin-top: -11%;
+    margin-left: -15%;
     
 }
 
@@ -95,6 +96,7 @@ h2 {
     font-size: 2em;
 /*    text-align: center;*/
     letter-spacing: .1rem;
+    
 }
 
 
