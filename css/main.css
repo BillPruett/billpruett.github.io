@@ -81,6 +81,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #253a4e;
+/*    253a4e*/
     font-size: 6em;
 /*    text-align: center;*/
     letter-spacing: .3rem;
@@ -99,13 +100,19 @@ h2 {
     
 }
 
+#welcome-section h2 {
+    margin-left: 8%;
+    color: whitesmoke;
+}
+
 
 #projects h2 {
-        font-size: 1.5em;
-        background-color: #f7f7f7;
-        color: #2C3E50;
-        padding: .5em;
-        margin: .1em 0;
+    font-size: 1.5em;
+    background-color: #f7f7f7;
+    color: #2C3E50;
+    padding: 1em;
+    margin-top: .1em ;
+
     }
     
 
