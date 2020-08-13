@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <title>Resume</title>
 
-    <!-- Bootstrap 4: 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    -->
+    
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -30,25 +29,61 @@
 
 <body>
 
-    <div class="topnav" id="myTopnav">
-       
-        <a href="index.html">Home</a>
-        <a href="resume.html" class="active">R&eacute;sum&eacute;</a> 
+<nav id="myTopnav" class="navbar navbar-expand-lg navbar-dark bg-dark topnav">
+          <a class="navbar-brand" href="index.html">Bill Pruett</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+<!--        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>-->
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#projects">Projects</a>
+          </li>
+          
+           <li class="nav-item">
+            <a class="nav-link active" href="resume.html">R&eacute;sum&eacute;</a>
+          </li>
+          
+             <li class="nav-item">
+            <a class="nav-link" href="mailto: bill@billpruett.net">Contact</a>
+          </li>
+          
+<!--
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+-->
+
+        </ul>
         
         <div id="icons">
-        <a class="contact" href="mailto:wm.pruett@gmail.com"><i class="fas fa-envelope-square"></i></a>
-               
-        <a class="contact" href="https://github.com/BillPruett"><i class="fab fa-github-square"></i></a>
+            <a class="contact" href="mailto:wm.pruett@gmail.com"><i class="fas fa-envelope-square"></i></a>
 
-                 
-        <a class="contact" href="https://www.linkedin.com/in/BillPruett"><i class="fab fa-linkedin-in"></i></a>
-        
+            <a class="contact" href="https://github.com/BillPruett"><i class="fab fa-github-square"></i></a>
+
+
+            <a class="contact" href="https://www.linkedin.com/in/BillPruett"><i class="fab fa-linkedin-in"></i></a>
+
         </div>
         
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
-    </div>
+      </div>
+    </nav>
     
     <main>
         <header class="hero-image">
@@ -62,7 +97,7 @@
         </header>
     
     
-    <div class="container">
+    <div class="container-fluid">
        <div id="skills" class="grid-item">
             <h3>SKILLS</h3>
             <p class="skill">HTML</p>  
@@ -70,7 +105,7 @@
             <p class="skill">Javascript</p> 
             <p class="skill">jQuery</p>
             <p class="skill">Node.js</p>
-            <p class="skill">Express</p>
+            <p class="skill">Express.js</p>
             <p class="skill">Bootstrap</p>
             <p class="skill">Python</p> 
             

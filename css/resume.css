@@ -13,9 +13,9 @@ body {
 }
 
 main {
-    width: 60%;
+    width: 80%;
     margin: 1rem auto;
-    padding: 1rem;
+    padding: 0;
     border: 1px solid gray;
 }
 
@@ -90,7 +90,7 @@ ul {
 /*    background-color: #efefef;*/
     color: white;
     border: 1px solid white;
-    padding: 1em; 
+    padding: .3em; 
 }
 
 .grid-item h3 {
