@@ -139,20 +139,21 @@ footer {
     height: auto;
     margin-top: 2em;
 /*    text-align: left;*/
-    padding: 2em;
+    padding: 1em;
     line-height: 2rem;
 }
 
 .main-footer a {
     text-decoration: none;
-    font-size: 1em;
-    color: white;
+    font-size: 1.3em;
+    color: #efefef;
     margin: 0 0;
     padding: .5em;
 }
 
 .main-footer p {
     color: white;
+    font-size: .8em;
 }
 
 .left {
