@@ -44,22 +44,6 @@
     display: none;
 }
 
-/********* My old nav: ********************/
-#navbar {
-    width: 100vw;
-    height: auto;
-    background-color: #253a4e;
-    padding: .4em; 
-    text-align: center;
-}
-
-#navbar a {
-    color: lightblue;
-    font-size: 1.5em;
-    text-decoration: none;
-    padding: .5em;
-    
-}
 
 #welcome-section {
     background-image: url("../images/laptop.3.png");
