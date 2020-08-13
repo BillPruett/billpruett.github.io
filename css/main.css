@@ -211,6 +211,7 @@ footer {
 @media (max-width: 414px) {
     #welcome-section {
         padding: 15%;
+        min-height: 28vh;
     }
     
     #welcome-section h1 {
