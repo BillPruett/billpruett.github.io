@@ -178,6 +178,7 @@ footer {
     #welcome-section h3 {
         font-size: 1.5em;
         margin: 5% 30% 0 -20%;
+        
     }
 }
 @media (max-width: 1023px) {
