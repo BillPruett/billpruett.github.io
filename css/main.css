@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-
 .topnav {
     background-color: #253a4e; /* was #333 */
     overflow: hidden;
@@ -51,7 +50,6 @@
 
 #welcome-section {
     background-image: url("../images/laptop.3.png");
-    /* ../images/mountain.jpg */
     background-position:  center center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -59,10 +57,6 @@
     border-radius: 0px;
     padding: 20%;
     display: flex;
-}
-
-.center {
-/*    position: absolute;*/
 }
 
 #welcome-section h1 {
