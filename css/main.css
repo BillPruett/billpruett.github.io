@@ -49,14 +49,12 @@
 
 
 #welcome-section {
+    min-height: 80vh;
     background-image: url("../images/laptop.3.png");
     background-position:  center center;
     background-size: cover;
     background-repeat: no-repeat; 
-    justify-content: center;
     border-radius: 0px;
-    padding: 20%;
-    display: flex;
 }
 
 #welcome-section h1 {
@@ -64,12 +62,10 @@
     font-weight: 900;
     color: blue;
     /* #253a4e */
-    font-size: 6.3em;
+    font-size: 6em;
     text-align: left;
     letter-spacing: .2rem;
-    margin-top: -2em;
-    margin-left: -2.5em;
-    padding-left: .5em;
+    padding: .5em 0 0 .25em;
     
 }
 
@@ -85,6 +81,7 @@ h2 {
 #welcome-section h2 {
     color: whitesmoke;
     text-align: left;
+    padding: .25em 0 0 1em;
 }
 
 #projects h2 {
@@ -94,7 +91,6 @@ h2 {
     padding: .5em;
     margin-top: .1em ;
     text-align: center;
-
     }
     
 
@@ -156,8 +152,6 @@ footer {
 
 @media (min-width: 1277px) {
     #welcome-section h1 {
-/*        margin-top: 0;*/
-        margin-left: -2.5em;
         font-size: 7em;
     }
     
@@ -167,20 +161,15 @@ footer {
     
     #welcome-section h2 {
         font-size: 3.2em;
-        margin: 5% 10% 0 -20%;
     }
     
     #welcome-section h3 {
         font-size: 1.5em;
-        margin: 5% 30% 0 -20%;
-        
     }
 }
 @media (max-width: 1023px) {
     #welcome-section h1{
         font-size: 5em;
-        margin-top: -1em;
-        margin-left: -2em;
     }
     
     h2 {
@@ -206,14 +195,11 @@ footer {
 
 @media (max-width: 414px) {
     #welcome-section {
-        padding: 15%;
         min-height: 28vh;
     }
     
     #welcome-section h1 {
         font-size: 2em;
-        margin-top: -.7em;
-        margin-left: -1.5em;
     }
     
     #welcome-section h2 {
