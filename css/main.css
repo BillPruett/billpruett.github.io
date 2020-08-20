@@ -84,12 +84,16 @@ h2 {
     padding: .25em 0 0 1em;
 }
 
+#projects {
+/*    padding: 1em 2em;*/
+}
+
 #projects h2 {
     font-size: 1.5em;
-    background-color: #f7f7f7;
+/*    background-color: #f7f7f7;*/
     color: #2C3E50;
     padding: .5em;
-    margin-top: .1em ;
+    margin-top: 1em ;
     text-align: center;
     }
     
@@ -102,8 +106,8 @@ h2 {
 
 .project-tile {
     background-color: #efefef;
-    margin: 2em 2.3em;
-    padding: 3em 1.5em;
+    margin: 1em 1em;
+    padding: .8em 1.5em;
     border: .5px solid #efefef;
 }
 
