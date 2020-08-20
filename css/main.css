@@ -102,11 +102,10 @@ h2 {
 
     }
     
-
 .container-3-col {
     display: grid;
     height: auto;
-    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
 
@@ -116,7 +115,6 @@ h2 {
     padding: 3em 1.5em;
     border: .5px solid black;
 }
-
 
 footer {
     width: 100vw;
