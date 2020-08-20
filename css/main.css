@@ -102,9 +102,9 @@ h2 {
 
 .project-tile {
     background-color: #efefef;
-    margin: 2em 2em;
+    margin: 2em 2.3em;
     padding: 3em 1.5em;
-    border: .5px solid black;
+    border: .5px solid #efefef;
 }
 
 footer {
