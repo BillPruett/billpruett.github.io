@@ -110,6 +110,7 @@ h2 {
 footer {
     width: 100vw;
     text-align: center;
+    background-color: #efefef;  /*f7f7f7 */
 }
 
 .main-footer {
