@@ -112,8 +112,8 @@ h2 {
 }
 
 .project-tile:hover {
-    border: .4em solid darkgrey;
-    padding: 1em 1em 0 1em;
+    border: .4em solid #abb2ba ;
+    /* padding: 1em 1em 0 1em; */
 }
 
 footer {
