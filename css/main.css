@@ -111,6 +111,11 @@ h2 {
     border: .5px solid #efefef;
 }
 
+.project-tile:hover {
+    border: .4em solid darkgrey;
+    padding: 1em 1em 0 1em;
+}
+
 footer {
     width: 100vw;
     text-align: center;
