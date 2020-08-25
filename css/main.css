@@ -115,12 +115,12 @@ h2 {
     background-color: #efefef;
     margin: 1em .5em;
     padding: .8em 1.5em;
-    border: .5px solid #efefef;
+    border: .4em solid #efefef; /* was 5px */
 }
 
 .project-tile:hover {
-    border: .4em solid #abb2ba ;
-    /* padding: 1em 1em 0 1em; */
+    border: .4em solid #abb2ba;
+    /* padding: 2em 2em 2em 2em; */
 }
 
 footer {
