@@ -123,6 +123,10 @@ h2 {
     /* padding: 2em 2em 2em 2em; */
 }
 
+.project-tile figure img {
+    max-width: 100%;
+}
+
 footer {
     width: 100vw;
     text-align: center;
