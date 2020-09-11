@@ -23,11 +23,15 @@
 .topnav a {
     float: left;
     display: block;
-    color: black;  /*#f2f2f2*/
+    color: white;  #f2f2f2
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+#myTopnav {
+    background: black;
 }
 
 /* Change color of links on hover */
@@ -47,6 +51,11 @@
     display: none;
 }
 
+.nav-item a:hover {
+    color: white;
+    background: black;
+
+}
 
 #welcome-section {
     /* min-height: 80vh; */
@@ -59,40 +68,37 @@
 }
 
 #welcome-section h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 7em;
     text-align: left;
-    letter-spacing: .2rem;
-    padding: 0 0 0 .25em;
-    
 }
 
 #welcome-section h1:nth-child(1) { 
-    padding: .5em 0 0 .25em;
     /* color: black; */
     color: white;
+    padding: .5em 0 0 0;
 }
 
 #welcome-section h1:nth-child(2) { 
     /* color:black; */
-    color:cornflowerblue;
+    color:white;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    /* font-family: 'Montserrat', sans-serif;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-weight: 700;
     color: white;
     font-size: 2em;
-    letter-spacing: .1rem;
-    
 }
 
 #welcome-section h2 {
     /* color: whitesmoke; */
     color: orangered;
     text-align: left;
-    padding: .5em 0 0 0.5em;
+    padding-left: .25em;
+    padding-bottom: .7em;
 }
 
 #projects {
@@ -100,9 +106,9 @@ h2 {
 }
 
 #projects h2 {
-    font-size: 1.2em;
+    font-size: 2em;
 /*    background-color: #f7f7f7;*/
-    color: #2C3E50;
+    color: black;
     padding: .5em;
     margin-top: 1em ;
     text-align: center;
@@ -172,45 +178,29 @@ footer {
     height: 80vh;
 }
 
-/*******************************************/
 
-/* @media (min-width: 1277px) {
-    #welcome-section h1 {
-        font-size: 7em;
-    }
-    
-    #welcome-section {
-        height: 65vh;
-    }
-    
-    #welcome-section h2 {
-        font-size: 3.2em;
-    }
-    
-    #welcome-section h3 {
-        font-size: 1.5em;
-    }
-} */
+// Media queries
+
 
 @media (min-height: 780px) {
     #welcome-section {
-        min-height: 50vh;
+        min-height: 70vh;
     }
 }
+
 @media (max-width: 1024x) {
     #welcome-section h1{
-        font-size: 4em;
+        font-size: 3em;
+    }
+
+    #welcome-section h2 {
+        padding-bottom: 1em;
     }
     
     h2 {
         font-size: 1.5em;
     }
     
-    #welcome-section h3 {
-        display: none;
-    }
-    
-
     .project-tile {
     background-color: #efefef;
     /* margin: .5em .5em; */
@@ -232,9 +222,8 @@ footer {
     }
     
     #welcome-section h1:nth-child(1) { 
-        padding: 1em 0 0 .25em;
-        /* color: black; */
-        color: white;
+       padding-top: 1em;
+       color: white;
     }
 
     #welcome-section h1 {
