@@ -100,7 +100,7 @@ h2 {
 }
 
 #projects h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 /*    background-color: #f7f7f7;*/
     color: #2C3E50;
     padding: .5em;
@@ -113,6 +113,7 @@ h2 {
     height: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    
 }
 
 .project-tile {
@@ -173,13 +174,13 @@ footer {
 
 /*******************************************/
 
-@media (min-width: 1277px) {
+/* @media (min-width: 1277px) {
     #welcome-section h1 {
         font-size: 7em;
     }
     
     #welcome-section {
-        height: 85vh;
+        height: 65vh;
     }
     
     #welcome-section h2 {
@@ -189,10 +190,16 @@ footer {
     #welcome-section h3 {
         font-size: 1.5em;
     }
+} */
+
+@media (min-height: 780px) {
+    #welcome-section {
+        min-height: 50vh;
+    }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1024x) {
     #welcome-section h1{
-        font-size: 5em;
+        font-size: 4em;
     }
     
     h2 {
@@ -203,30 +210,40 @@ footer {
         display: none;
     }
     
-    .container-3-col {
-        width: 100vw;
-        height: auto;
-        grid-template-columns: 1fr;
-}
-    
+
     .project-tile {
     background-color: #efefef;
     /* margin: .5em .5em; */
     padding: .5em;
-}
+    }
+
+    .container-3-col {
+        display: grid;
+        height: auto; */
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto; 
+    }
+
 }
 
 @media (max-width: 414px) {
     #welcome-section {
-        min-height: 28vh;
+        min-height: 50vh;
     }
     
+    #welcome-section h1:nth-child(1) { 
+        padding: 1em 0 0 .25em;
+        /* color: black; */
+        color: white;
+    }
+
     #welcome-section h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
     
     #welcome-section h2 {
-        font-size: 1em;
+        margin-top: 1em;
+        font-size: 1.5em;
     }
     
     #welcome-section h3 {
@@ -236,4 +253,8 @@ footer {
     .project-tile {
         margin: .5em 0 .5em 0;
         border: none;
+}
+    .container-3-col {
+        grid-template-columns: 1fr;
+    }
 }
