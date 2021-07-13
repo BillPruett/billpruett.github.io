@@ -89,13 +89,12 @@ h2 {
     /* font-family: 'Montserrat', sans-serif;*/
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
     font-weight: 700;
-    color: black;
     font-size: 2em;
 }
 
 #welcome-section h2 {
     /* color: whitesmoke; */
-    color: palegray;
+    color: goldenrod;
     text-align: center;
     padding-left: .25em;
     padding-bottom: .7em;
