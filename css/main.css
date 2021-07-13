@@ -113,6 +113,11 @@ h2 {
     margin-top: 1em ;
     text-align: center;
     }
+
+#projects h3 {
+    padding: .5em;
+    margin-top: 1em;
+}
     
 .container-3-col {
     display: grid;
@@ -218,12 +223,11 @@ footer {
 
 @media (max-width: 768px) {
     #welcome-section {
-        min-height: 50vh;
+        min-height: 90vh;
     }
     
     #welcome-section h1:nth-child(1) { 
        padding-top: 1em;
-       color: white;
     }
 
     #welcome-section h1 {
@@ -232,7 +236,6 @@ footer {
     
     #welcome-section h2 {
         margin-top: 1em;
-        font-size: 1.5em;
     }
     
     #welcome-section h3 {
