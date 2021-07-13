@@ -58,6 +58,10 @@
 }
 
 #welcome-section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
     min-height: 90vh;
     /* background-image: url("../images/laptop.3.png"); */
     background-image: url("../images/wes-hicks-Qa2rx5RSAAI-unsplash.jpg");
@@ -72,6 +76,7 @@
     font-weight: 700;
     font-size: 7em;
     text-align: center;
+    
 }
 
 #welcome-section h1:nth-child(1) { 
