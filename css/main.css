@@ -71,7 +71,7 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     font-size: 7em;
-    text-align: left;
+    text-align: center;
 }
 
 #welcome-section h1:nth-child(1) { 
@@ -96,7 +96,7 @@ h2 {
 #welcome-section h2 {
     /* color: whitesmoke; */
     color: orangered;
-    text-align: left;
+    text-align: center;
     padding-left: .25em;
     padding-bottom: .7em;
 }
