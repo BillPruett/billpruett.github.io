@@ -58,9 +58,9 @@
 }
 
 #welcome-section {
-    min-height: 70vh;
+    min-height: 90vh;
     /* background-image: url("../images/laptop.3.png"); */
-    background-image: url("../images/cyber.jpg");
+    background-image: url("../images/wes-hicks-Qa2rx5RSAAI-unsplash.jpg");
     background-position:  center center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -76,20 +76,20 @@
 
 #welcome-section h1:nth-child(1) { 
     /* color: black; */
-    color: white;
+    color: darkslategray;
     padding: .5em 0 0 0;
 }
 
 #welcome-section h1:nth-child(2) { 
     /* color:black; */
-    color:white;
+    color: darkslategray;
 }
 
 h2 {
     /* font-family: 'Montserrat', sans-serif;*/
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
     font-weight: 700;
-    color: white;
+    color: black;
     font-size: 2em;
 }
 
